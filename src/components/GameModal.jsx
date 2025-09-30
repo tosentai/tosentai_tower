@@ -12,7 +12,7 @@ const GameModal = ({ gameState, score, onStart }) => {
                     className="text-5xl font-extrabold mb-4 text-white"
                     style={{ textShadow: "0 0 15px" }}
                 >
-                    {isGameOver ? "Game Over" : "Build the Tower"}
+                    {isGameOver ? "Game Over" : "Tosentai Tower"}
                 </h2>
 
                 {isGameOver && (
